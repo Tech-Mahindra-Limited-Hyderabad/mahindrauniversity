@@ -62,8 +62,7 @@ a:hover {
 .second-nav-search {
   font-size: 14px;
   line-height: 2.14;
-  color: #1d2329;
-  /* padding: 7px 20px 7px 0 !important; */
+  color: #1d2329 !important;
   padding: 7px 20px 7px 0 !important;
 }
 .second-nav-link:last-child {
@@ -3975,6 +3974,9 @@ ul.institute,
 /** Mu Resource  screen End **/
 
 /** Mu Contact US   screen Start **/
+.contact-breadcrumbs-wrapper{
+  /* padding: 0; */
+}
 
 .custom-bg {
   background-color: #f6f8f9;
@@ -4092,3 +4094,16 @@ ul.institute,
 }
 
 /** Mu Contact us screen End **/
+
+/** Navbar CSS Start**/
+.bg-dark {
+  background-color: #343a40!important;
+  padding: 0 22px;
+}
+
+.bg-light {
+  padding: 10px 46px;
+  background-color: #ffffff !important;
+}
+
+/** Navbar CSS End**/

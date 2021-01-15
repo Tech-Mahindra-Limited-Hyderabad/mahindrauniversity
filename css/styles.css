@@ -277,7 +277,7 @@ hr {
   width: 60px;
   height: 4px;
   border-radius: 2px;
-  background-color: #d03a40;
+  background-color: #d0313f;
   margin: 20px 0 30px 2px;
 }
 .carousel-main-wrapper {
@@ -1006,7 +1006,7 @@ footer hr,
 }
 .aboutus-img {
   width: 1445px;
-  margin-top: 70px;
+  margin-top: 32px;
 }
 /************** End of About MU styles ***************/
 
@@ -1046,7 +1046,7 @@ ul.nav.nav-pills {
 }
 .ordinance_subtitle_text {
   font-size: 36px;
-  font-weight: 300;
+  font-weight: 600;
   line-height: 1.31;
   color: #1d2329;
   width: 357px;
@@ -3809,13 +3809,25 @@ ul.institute,
 
 /** Research Advisory Council Screen Start **/
 
+.research-tab-wrapper{
+  padding: 50px 50px 0px;
+}
+
+.second-nav-item{
+  padding: 0px 343px;
+}
+
 .research-tab-wrapper .nav-pills .nav-link {
   font-size: 14px;
   line-height: 2.14;
   color: #1d2329;
   opacity: 0.5;
   border-radius: 0px;
-  padding: 57px 153px 16px !important;
+ 
+}
+.institute-block.research-li{
+  padding: 0px;
+
 }
 .institute-block ul.research_about  {
   font-size: 15px;
@@ -3823,6 +3835,7 @@ ul.institute,
   color: #6c7787;
   list-style-type: none;
   width: 100%;
+  padding-left: 0px !important;
  
 }
 
@@ -3959,12 +3972,13 @@ ul.institute,
   padding: 0px 10px;
 }
 .uplaod-research-doc-wrapper {
-  padding: 67px 51px 79px;
+  padding: 67px 50px 79px;
   overflow: hidden;
 }
 .research_area_wrapper {
   background-color: #f6f8f9;
-  margin-top: 116px;
+  margin-top: 66px;
+  padding: 0px 50px;
 }
 .research_area {
   width: 1140px;
@@ -4186,11 +4200,38 @@ ul.institute,
 }
 
 .bg-light {
-  padding: 10px 46px;
+  padding: 10px 50px;
   background-color: #ffffff !important;
 }
 
 /** Navbar CSS End**/
 
+.banner-text{
+  position: relative;
+  text-align: center;
+  color: white;
+
+}
+
+.text-on-img{
+  position: absolute;
+  top: 50%;
+  left: 32%;
+  transform: translate(-50%, -50%);
+}
+.text-on-img-align{
+  margin: 10px 63px;
+}
+.text-on-img-title h1{
+  font-size: 36px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.42;
+  letter-spacing: normal;
+  color: #ffffff;
+  text-align: left;
+  
+}
 
 

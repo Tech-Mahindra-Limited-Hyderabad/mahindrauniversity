@@ -600,6 +600,8 @@ hr {
 /***************End of What's new styles*************/
 
 /***************Start of Research based styles*************/
+
+
 .research-wrapper {
   overflow: hidden;
 }
@@ -1530,7 +1532,7 @@ ul.institute,
   overflow: hidden;
 }
 .branch-section > div {
-  padding: 67px 0;
+  padding: 67px 0 130px;
   background-color: #f6f8f9;
 }
 .branch-block {
@@ -1609,7 +1611,6 @@ ul.institute,
 .fee-wrapper > div {
   background-color: #ffffff;
   margin: 0 50px;
-  padding-bottom: 67px;
 }
 .fee-structure-block {
   padding: 25px;
@@ -2598,26 +2599,14 @@ ul.institute,
 .event-title {
   width: 360px !important;
 }
-.event-detail-img-wrapper {
-  position: relative;
-  margin-top: -35%;
-}
-.event-detail-img-wrapper img {
-  width: 584px;
-}
 .event-btn {
+  float: right;
   margin-right: 130px;
   margin-top: 33px;
   border-radius: 3px;
   border: solid 2px #d0313f;
   font-weight: 500;
   line-height: 1.25;
-  width: 189px;
-  height: 31px;
-  margin-left: 25%;
-}
-.event-footer {
-  margin-top: 7%;
 }
 /***************End of Events screens styles*************/
 
@@ -2653,9 +2642,6 @@ ul.institute,
 }
 .loan-section {
   margin-top: 67px;
-}
-.loan-section > div {
-  padding-bottom: 130px;
 }
 .loan-section h4 {
   width: 351px;
@@ -2745,9 +2731,6 @@ ul.institute,
 }
 .academy-faculty-wrapper .specialisation-block p {
   width: 363px;
-}
-.email {
-  width: 88%;
 }
 .faculty-view {
   text-align: center;
@@ -3448,6 +3431,7 @@ ul.institute,
   text-align: center;
   color: #6c7787;
   width: 584px;
+  text-align: left;
 }
 /***************End of Alumni Council screens styles*************/
 
@@ -3825,6 +3809,23 @@ ul.institute,
 
 /** Research Advisory Council Screen Start **/
 
+.research-tab-wrapper .nav-pills .nav-link {
+  font-size: 14px;
+  line-height: 2.14;
+  color: #1d2329;
+  opacity: 0.5;
+  border-radius: 0px;
+  padding: 57px 153px 16px !important;
+}
+.institute-block ul.research_about  {
+  font-size: 15px;
+  line-height: 2.67;
+  color: #6c7787;
+  list-style-type: none;
+  width: 100%;
+ 
+}
+
 .research_advisory_council img {
   width: 367px;
   padding-top: 20px;
@@ -3958,12 +3959,12 @@ ul.institute,
   padding: 0px 10px;
 }
 .uplaod-research-doc-wrapper {
-  padding: 50px 51px;
+  padding: 67px 51px 79px;
   overflow: hidden;
 }
 .research_area_wrapper {
   background-color: #f6f8f9;
-  margin-top: 40px;
+  margin-top: 116px;
 }
 .research_area {
   width: 1140px;
@@ -4190,3 +4191,6 @@ ul.institute,
 }
 
 /** Navbar CSS End**/
+
+
+

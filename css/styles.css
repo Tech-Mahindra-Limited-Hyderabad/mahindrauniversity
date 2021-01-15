@@ -3052,6 +3052,57 @@ ul.institute,
 }
 /***************End of Apply now screen  styles*************/
 
+.image-highlighter-wrapper {
+  background-image: url("../images/procedure.png");
+  background-repeat: no-repeat;
+  height: 644px;
+  height: 610px;
+  background-size: cover;
+}
+.row {
+  margin: 0;
+}
+.col {
+  font-size: 20px;
+  line-height: 2.35;
+  color: #ffffff;
+  padding: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  min-height: 305px;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  position: relative;
+  overflow: hidden;
+}
+.row:last-child .col {
+  border-bottom: none;
+}
+.thumb-anim {
+  transition: 0.5s;
+  transform: translateY(10%);
+  margin-top: auto; /* pushes all content to bottom */
+  position: relative;
+}
+.thumb-title {
+  transition: 0.5s;
+  transform: translate(25%, -200%);
+}
+.thumb-description {
+  font-size: 13px;
+  line-height: 1.69;
+  text-align: center;
+  color: #ffffff;
+  transform: translateY(-55px);
+}
+/* ANIMATE */
+
+.col:hover .thumb-anim,
+.col:hover .thumb-title {
+  transform: translateY(0);
+}
+
 /***************Start of Alumni screens  styles*************/
 .alumni_community_wrapper {
   margin-top: 40px;
@@ -3975,7 +4026,6 @@ ul.institute,
 
 /** Mu Contact US   screen Start **/
 
-
 .custom-bg {
   background-color: #f6f8f9;
   padding-top: 50px;
@@ -4095,7 +4145,7 @@ ul.institute,
 
 /** Navbar CSS Start**/
 .bg-dark {
-  background-color: #343a40!important;
+  background-color: #343a40 !important;
   padding: 0 22px;
 }
 

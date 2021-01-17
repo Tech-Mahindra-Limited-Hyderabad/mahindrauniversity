@@ -979,7 +979,11 @@ footer hr,
 /************* Start of About MU styles ***************/
 .aboutus-wrapper {
   padding: 0px 50px 0px;
-  overflow: hidden;
+
+}
+
+.about-tabcont{
+  width: 595px;
 }
 .title {
   font-size: 36px;
@@ -1007,6 +1011,7 @@ footer hr,
 .aboutus-img {
   width: 1445px;
   margin-top: 32px;
+  box-shadow: 30px 10px 80px 0 rgba(0, 0, 0, 0.1);
 }
 /************** End of About MU styles ***************/
 
@@ -1043,6 +1048,7 @@ ul.nav.nav-pills {
   font-weight: 300;
   line-height: 1.31;
   color: #1d2329;
+  
 }
 .ordinance_subtitle_text {
   font-size: 36px;
@@ -1056,13 +1062,12 @@ ul.nav.nav-pills {
   line-height: 1.73;
   color: #6c7787;
   width: 590px;
+  padding-bottom: 30px;
 }
 .about-title span {
-  font-weight: 500;
+  font-weight: 600;
 }
-.ordinance_description {
-  padding-left: 140px;
-}
+
 .ordinance_doc span {
   font-size: 15px;
   line-height: 1.73;
@@ -1086,10 +1091,9 @@ ul.nav.nav-pills {
 /************** Start of purpose,vision,mission styles **************/
 .purpose-wrapper {
   width: 100%;
-  height: 1111px;
   background-color: #f6f8f9;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 120px;
 }
 .purpose-first {
   margin-bottom: 50px;
@@ -1109,6 +1113,8 @@ ul.nav.nav-pills {
   font-size: 24px;
   line-height: 1.67;
   color: #000000;
+  padding-bottom: 10px;
+  padding-top: 25px;
 }
 .purpose-righttxt h2,
 .purpose-leftttxt h2 {
@@ -1130,7 +1136,7 @@ ul.nav.nav-pills {
   display: inline;
   float: left;
   width: 51%;
-  padding: 57px;
+  padding: 50px;
 }
 .purpose-rightimg {
   width: 400px;
@@ -3073,6 +3079,9 @@ ul.institute,
 .image-academy {
   background-image: url("../images/academy.png");
 }
+.about-chancellor {
+  background-image: url("../images/chancellor.png");
+}
 .row {
   margin: 0;
 }
@@ -3367,7 +3376,6 @@ ul.institute,
 }
 .alumni_council_events_tilte img {
   width: 312px;
-  padding-top: 50px;
 }
 .alumni_council_events_first_img {
   margin-right: 30px;
@@ -3398,6 +3406,12 @@ ul.institute,
 .coreteam-name,
 .coreteam-about {
   padding-left: 15px;
+}
+.alumni_council{
+  padding-left: 30px;
+}
+.alumni_council p{
+  padding: 10px 48px 10px 17px;
 }
 .alumni_council_events_tilte h1 {
   font-size: 20px;
@@ -3587,6 +3601,9 @@ ul.institute,
 /**  END of Campus Student Activity Screen **/
 
 /** Start of Campus Infrastructure Activity Screen **/
+.campus-infrastructure{
+  padding: 0 30px;
+}
 .campus_infra_wrapper {
   padding: 0px 50px 50px;
   overflow: hidden;
@@ -3600,11 +3617,16 @@ ul.institute,
   border-radius: 0px;
   padding: 0px 84px 17px 84px !important;
 }
+.campus_infra img{
+    width: 520px;
+    height: auto;
+    padding-top: 20px;
+}
 .health-img {
   width: 631px;
 }
 .campus-health p.about-title {
-  margin: 0px 30px 10px 0px;
+  margin: 0px 30px 30px 0px;
   width: 575px;
 }
 .purpose-righttxt p.about-title {
@@ -3619,36 +3641,32 @@ ul.institute,
 }
 .smart-classrooms-wrapper {
   width: 100%;
-  height: 752px;
+  height: 640px;
   background-color: white;
-  padding-top: 90px;
-  padding-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 60px;
 }
 .sports-leisure-wrapper {
   width: 100%;
-  height: 752px;
+  height: 790px;
   background-color: #f6f8f9;
-  padding-top: 90px;
+  padding-top: 75px;
   padding-bottom: 50px;
+  
 }
 
-.purpose-leftimg.smart-class-img img {
-  width: 572px;
-  height: 586px;
-}
-.purpose-righimg.smart-class-img img {
-  width: 309px;
-  float: right;
-}
 
-.purpose-leftimg.smart-class-img {
-  display: inline;
-  float: left;
-  width: 50%;
-}
 .campus-infrastructure p {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  padding-right: 40px;
 }
+.campus-infrastructure p span {
+font-weight: 600;
+}
+.campus-class{
+  padding: 40px 102px 20px 50px;
+}
+
 
 /** End of Campus Infrastructure Activity Screen  **/
 
@@ -3657,18 +3675,89 @@ ul.institute,
   padding: 65px 50px 50px;
   overflow: hidden;
 }
-
+.libary-align{
+  padding-left: 263px;
+  
+}
+.libariry-top{
+  padding-top: 83px;
+}
+.libariry-para{
+  padding: 30px 0px 0px 36px;
+}
 .library_description {
-  padding-left: 140px;
+ 
   width: 942px;
-  padding-right: 100px;
+  padding-right: 74px;
+}
+
+.library_description p {
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+  color: #6c7787;
+  padding-bottom: 15px;
+
+}
+.library_description h1{
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: #000000;
+  padding-bottom: 15px;
+}
+.library_description p span{
+font-weight: 600;
+
+}
+
+.libra_infra img{
+  width: 660px;
+  height: auto;
+  padding-top: 20px;
+}
+.libra_infra-right img{
+  width: 560px;
+  height: auto;
+  padding-top: 20px;
+}
+.library_description-left{
+  padding-left: 50px;
+  padding-right: 70px;
+}
+.library_description-left p {
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+  color: #6c7787;
+  padding-bottom: 15px;
+
+}
+.library_description-left h1{
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: #000000;
+  padding-bottom: 15px;
 }
 
 /** End of Campus library Activity Screen **/
 
 /** Start of Campus Overview ctivity Screen **/
 .campus-overview-wrapper {
-  padding: 20px 50px;
+  padding: 20px 50px 115px 50px;
   overflow: hidden;
 }
 .campus-overview-img :first-child {
@@ -3688,6 +3777,9 @@ ul.institute,
 }
 .ordinance_subtitle span {
   font-weight: 600;
+}
+.camp-overview {
+  padding-left: 272px;
 }
 .camp-overview p {
   margin-bottom: 15px;
@@ -3783,6 +3875,49 @@ ul.institute,
 .teammeet img:first-child {
   margin-right: 30px;
 }
+
+.leader-event-sub-tile {
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #6c7787;
+  width: 584px;
+
+}
+
+.alumni_council_events_tilte p {
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+  color: #6c7787;
+}
+.img-on-img img{
+  width: auto;
+  
+}
+.banner-icon{
+  position: relative;
+  text-align: center;
+  color: white;
+  opacity: 0.9;
+
+}
+.banner-icon h1,h2{
+  text-align: left;
+}
+.img-on-img {
+  position: absolute;
+  top: 41%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 /** Leadership Governing Body Screen End **/
 
 /** Leadership Governing Body Screen Start **/
@@ -3809,12 +3944,10 @@ ul.institute,
 
 /** Research Advisory Council Screen Start **/
 
-.research-tab-wrapper{
-  padding: 50px 50px 0px;
-}
 
-.second-nav-item{
-  padding: 0px 343px;
+.research_advisory_council_wrapper{
+  margin-bottom: 70px;
+
 }
 
 .research-tab-wrapper .nav-pills .nav-link {
@@ -3876,8 +4009,12 @@ ul.institute,
 /** Research Advisory Council Screen END **/
 
 /** Research Programs Screen Start **/
+.pagination-section-wrapper {
+  padding: 30px 50px;
+  margin-bottom: 68px;
+}
 .research_program {
-  width: 1139px;
+  width: 1167px;
   padding: 33px 36px 33px 40px;
   border-radius: 5px;
   box-shadow: 0 10px 30px 0 rgba(189, 195, 200, 0.16);
@@ -3987,6 +4124,7 @@ ul.institute,
 /** Research vision end **/
 
 /** Mu Resource  screen Start **/
+
 .resource-textbox {
   background-image: url("../images/search.svg");
   background-position: center right;
@@ -3999,6 +4137,11 @@ ul.institute,
   border-width: 0 0 2px;
   border-color: #d6d6d6;
 }
+.MU-resource-wrapper{
+  padding: 0 50px;
+  overflow: hidden;
+  margin-bottom: 70px;
+}
 
 .mu-resource-img {
   width: 92px;
@@ -4007,14 +4150,17 @@ ul.institute,
 }
 
 .MU-gallery-cards .resource-card {
-  width: 360px;
-  margin: 0 20px;
+  width: 375px; 
   padding: 35px 30px;
   border-radius: 5px;
   box-shadow: 0 10px 30px 0 rgba(189, 195, 200, 0.16);
   border: solid 2.4px #f5f5f5;
   background-color: #ffffff;
 }
+.MU-gallery-cards .resource-card.middle {
+  margin: 0 20px;
+}
+
 
 .info-new {
   position: relative;
@@ -4141,6 +4287,7 @@ ul.institute,
 
 .contact-block {
   margin-right: 52px;
+  padding-left: 27px;
 }
 .contact-block hr {
   width: auto;
@@ -4180,17 +4327,23 @@ ul.institute,
   background-color: #d0313f;
 }
 .contacusform {
-  width: 1140px;
-  height: 746px;
-
+  width: 92%;
   border-radius: 5px;
   background-color: #ffffff;
 }
 
+
 .custom-form-control {
   border-radius: inherit;
 }
-
+.contac-tab-wrapper{
+      padding: 50px 50px 0px 50px;
+}
+.contact-us-form-wrapper{
+  background-color: #f6f8f9;
+  height: 301px;
+  margin-bottom: 406px;
+}
 /** Mu Contact us screen End **/
 
 /** Navbar CSS Start**/

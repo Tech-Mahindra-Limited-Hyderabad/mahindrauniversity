@@ -3132,15 +3132,28 @@ ul.institute,
 }
 /***************Start of Alumni screens  styles*************/
 .alumni_community_wrapper {
-  margin-top: 40px;
+ margin: 110px 0 ;
 }
 .alumni-wrapper {
   padding: 0px 50px 50px;
   overflow: hidden;
 }
+.alumni-card-wrapper{
+  padding: 80px 50px 50px 50px;
+  overflow: hidden;
+  background-color: #f6f8f9;
+}
+.upcome-event-tile{
+  padding-top: 30px;
+}
 .upcoming_events_wrapper {
   padding: 40px 50px 90px;
   margin: 70px 0px 70px 0px;
+  overflow: hidden;
+  background-color: #f6f8f9;
+}
+.alumini-upcoming_events_wrapper {
+  padding: 40px 50px 90px;
   overflow: hidden;
   background-color: #f6f8f9;
 }

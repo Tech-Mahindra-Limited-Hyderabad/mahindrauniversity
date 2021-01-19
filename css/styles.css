@@ -2628,9 +2628,19 @@ ul.institute,
 .event-title {
   width: 360px !important;
 }
+.event-detail-img-wrapper {
+  position: relative;
+  margin-left: -8%;
+}
+.event-detail-img-wrapper img {
+  width: 584px;
+  position: absolute;
+}
 .event-btn {
-  float: right;
-  margin-right: 130px;
+  width: 189px;
+  position: absolute;
+  bottom: -550px;
+  right: 185px;
   margin-top: 33px;
   border-radius: 3px;
   border: solid 2px #d0313f;

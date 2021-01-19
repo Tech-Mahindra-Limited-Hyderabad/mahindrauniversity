@@ -990,6 +990,7 @@ footer hr,
   font-size: 36px;
   line-height: 51px;
   color: #6c7787;
+  font-weight: 300;
 }
 .subtitle {
   font-size: 36px;
@@ -1158,6 +1159,9 @@ ul.nav.nav-pills {
   border-radius: 4px;
   box-shadow: 50px 130px 100px 0 rgba(0, 0, 0, 0.15);
   background-color: #ffffff;
+  margin-bottom: -85px;
+  z-index: 100;
+  position: relative;
 }
 .mu-impact h1 {
   font-size: 36px;
@@ -3428,13 +3432,12 @@ ul.institute,
   box-shadow: 30px 10px 80px 0 rgba(0, 0, 0, 0.1);
 }
 .campus_student_activity {
-  width: 358px;
+  
   height: 480px;
   box-shadow: 0 10px 30px 0 rgba(189, 195, 200, 0.16);
   border: solid 2.4px #f5f5f5;
   background-color: #ffffff;
-  margin-bottom: 20px;
-  margin-right: 45px;
+  margin-bottom: 33px;  
   padding: 19px;
   border-radius: 10px;
 }
@@ -3485,7 +3488,7 @@ ul.institute,
 .campus_student_club {
   width: 358px;
   min-height: 262px;
-  margin-bottom: 20px;
+  margin-bottom: 33px;
   margin-right: 45px;
   padding: 36px 19px 38px 22px;
   border-radius: 5px;
@@ -3533,14 +3536,36 @@ ul.institute,
 /**  END of Campus Student Activity Screen **/
 
 /** Start of Campus Infrastructure Activity Screen **/
+.campus-tabs-wrapper {
+  padding: 50px 0px 0px 50px;
+  overflow: hidden;
+}
+.campnav{
+  padding-right: 50px;
+}
 .campus-infrastructure {
-  padding: 0 30px;
+  padding: 0 61px;
 }
 .campus_infra_wrapper {
   padding: 0px 50px 50px;
   overflow: hidden;
 }
 
+.campus-infra-text{
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+  color: #6c7787;
+  padding: 0px 20px 18px 0px;
+}
+.campus-infra-text span{
+  font-size: 15px;
+  font-weight: 600; 
+  color: #6c7787;
+}
 .nav-pills.custom-link .nav-link {
   font-size: 14px;
   line-height: 2.14;
@@ -3594,15 +3619,9 @@ ul.institute,
   width: 60% !important;
 }
 
-.campus-infrastructure p {
-  margin-bottom: 15px;
-  padding-right: 40px;
-}
-.campus-infrastructure p span {
-  font-weight: 600;
-}
+
 .campus-class {
-  padding: 40px 102px 20px 50px;
+  padding: 40px 167px 20px 50px;
 }
 
 /** End of Campus Infrastructure Activity Screen  **/

@@ -985,6 +985,9 @@ footer hr,
 .about-tabcont{
   width: 595px;
 }
+.about-ttl span{
+  color: #1d2329 !important;
+}
 .title {
   font-size: 36px;
   line-height: 51px;
@@ -1009,7 +1012,7 @@ footer hr,
   width: 851px;
 }
 .aboutus-img {
-  width: 1445px;
+  width: 100%;
   margin-top: 32px;
   box-shadow: 30px 10px 80px 0 rgba(0, 0, 0, 0.1);
 }
@@ -1066,6 +1069,7 @@ ul.nav.nav-pills {
 }
 .about-title span {
   font-weight: 600;
+  color: #6c7787;
 }
 
 .ordinance_doc span {
@@ -1073,6 +1077,7 @@ ul.nav.nav-pills {
   line-height: 1.73;
   color: #25529b;
   cursor: pointer;
+  text-decoration: underline;
 }
 /************** End of Tabs section styles **********/
 
@@ -2014,7 +2019,7 @@ ul.institute,
   border-color: green
 } */
 .MU-gallery-cards {
-  padding-bottom: 60px;
+  padding-bottom: 71px;
 }
 .MU-gallery-cards .card {
   width: 360px;
@@ -3156,6 +3161,7 @@ ul.institute,
   padding: 40px 50px 90px;
   overflow: hidden;
   background-color: #f6f8f9;
+  margin-bottom: 40px;
 }
 .upcome-event-tile span:first-child {
   font-size: 36px;
@@ -3178,7 +3184,7 @@ ul.institute,
   color: #000000;
 }
 .alumni-img {
-  width: 1445px;
+  width: 100%;
   overflow: hidden;
   margin: 30px 0px 30px;
 }
@@ -3323,7 +3329,9 @@ ul.institute,
 /***************End of Alumni screens styles*************/
 /***************Start  of Alumni Council screens styles*************/
 .alumni_council_wrapper {
-  margin: 20px 0px 30px;
+ padding: 0px 50px ;
+ overflow: hidden;
+
 }
 .council {
   width: 357px;
@@ -3331,7 +3339,6 @@ ul.institute,
 
 .council h1 {
   opacity: 0.8;
-  font-family: Gotham;
   font-size: 15px;
   font-weight: normal;
   font-stretch: normal;
@@ -3379,10 +3386,27 @@ ul.institute,
 }
 
 .alumni-council-img {
-  width: 1456px;
+  width: 100%;
   margin-top: 40px;
 }
+.padding-btm{
+  padding-bottom: 100px;
 
+}
+.margin-btn{
+  margin-bottom: 60px;
+}
+.fa-quote-left{
+  font-size: 46px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #6c7787;
+  padding-left: 10px;
+  padding-top: 20px;
+}
 .coming-event img {
   width: 616px;
   margin-right: 30px;
@@ -3421,11 +3445,14 @@ ul.institute,
   padding-left: 15px;
 }
 .alumni_council{
-  padding-left: 30px;
+  padding-left: 15px;
+  background-color: #ffffff;
+  height: 361px;
 }
 .alumni_council p{
-  padding: 10px 48px 10px 17px;
+  padding: 0px 10px 10px 55px;
 }
+
 .alumni_council_events_tilte h1 {
   font-size: 20px;
   font-weight: 500;
@@ -3457,23 +3484,22 @@ ul.institute,
   letter-spacing: normal;
   text-align: center;
   color: #6c7787;
-  width: 584px;
-  text-align: left;
+  width: 584px; 
 }
 /***************End of Alumni Council screens styles*************/
 
 /**  Start of Campus Student Activity Screen    **/
 
 .campus_student_activity_wrapper {
-  padding: 0px 50px 50px;
+  padding: 0px 50px 110px;
   overflow: hidden;
 }
 .subtitle_txt span {
-  font-weight: 500px;
-  color: #000;
+  font-weight: 600px;
+  color: #6c7787;
 }
 .student-activity-img {
-  width: 1445px;
+  width: 100%;
   overflow: hidden;
   margin: 30px 0px 30px;
   box-shadow: 30px 10px 80px 0 rgba(0, 0, 0, 0.1);
@@ -3536,19 +3562,14 @@ ul.institute,
 /**  Start of Campus Student Activity Screen    **/
 
 .campus_student_club_wrapper {
-  padding: 0px 50px 50px;
+  padding: 0px 50px 81px;
   overflow: hidden;
 }
 .subtitle_txt span {
-  font-weight: 500px;
-  color: #000;
+  font-weight: 600px;
+  color: #6c7787;
 }
-.student-activity-img {
-  width: 1445px;
-  overflow: hidden;
-  margin: 30px 0px 30px;
-  box-shadow: 30px 10px 80px 0 rgba(0, 0, 0, 0.1);
-}
+
 .campus_student_club {
   width: 358px;
   min-height: 262px;
@@ -3631,41 +3652,49 @@ ul.institute,
   padding: 0px 84px 17px 84px !important;
 }
 .campus_infra img{
-    width: 520px;
+    width: 100%;
     height: auto;
     padding-top: 20px;
 }
 .health-img {
-  width: 631px;
+  width: 100%;
 }
 .campus-health p.about-title {
-  margin: 0px 30px 30px 0px;
-  width: 575px;
+ padding-right: 20px;
 }
 .purpose-righttxt p.about-title {
   margin: 0px 30px 10px 0px;
 }
 .hostel-dining-wrapper {
   width: 100%;
-  height: 752px;
   background-color: #f6f8f9;
-  padding-top: 90px;
-  padding-bottom: 50px;
+ padding: 70px 0px;
 }
 .smart-classrooms-wrapper {
   width: 100%;
-  height: 640px;
   background-color: white;
-  padding-top: 80px;
-  padding-bottom: 60px;
+  padding: 70px 0px;
 }
 .sports-leisure-wrapper {
-  width: 100%;
-  height: 790px;
+  width: 100%; 
   background-color: #f6f8f9;
-  padding-top: 75px;
-  padding-bottom: 50px;
+  padding-top: 70px;
+  padding-bottom: 110px;
   
+}
+.w-30{
+  width: 30% !important;
+}
+
+.w-70{
+  width: 70% !important;
+}
+
+.w-40{
+  width: 40% !important;
+}
+.w-60{
+  width: 60% !important;
 }
 
 
@@ -3727,6 +3756,7 @@ font-weight: 600;
 }
 .library_description p span{
 font-weight: 600;
+color: #6c7787;
 
 }
 
@@ -3787,9 +3817,11 @@ font-weight: 600;
 
 .subtitle_txt span {
   font-weight: 600;
+  color: #6c7787;
 }
 .ordinance_subtitle span {
   font-weight: 600;
+  color: #6c7787;
 }
 .camp-overview {
   padding-left: 272px;
@@ -3804,7 +3836,7 @@ font-weight: 600;
 /** Leadership Governing Body Screen Start **/
 
 .leader_gover_wrapper {
-  padding: 120px 0px 89px;
+  padding: 110px 50px 70px 50px;
 }
 .leader_gover {
   width: 357px;
@@ -3812,7 +3844,6 @@ font-weight: 600;
 
 .leader_gover h1 {
   opacity: 0.8;
-  font-family: Gotham;
   font-size: 15px;
   font-weight: normal;
   font-stretch: normal;
@@ -3959,7 +3990,9 @@ font-weight: 600;
 
 
 .research_advisory_council_wrapper{
-  margin-bottom: 70px;
+  margin-bottom: 130px;
+  padding: 0px 50px;
+  overflow: hidden;
 
 }
 
@@ -4022,12 +4055,21 @@ font-weight: 600;
 /** Research Advisory Council Screen END **/
 
 /** Research Programs Screen Start **/
+.research_program_council_wrapper{
+  padding: 0px 50px;
+  overflow: hidden;
+}
 .pagination-section-wrapper {
   padding: 30px 50px;
   margin-bottom: 68px;
 }
+
+.research-pagination-section-wrapper {
+  padding: 50px 50px;
+  margin-bottom: 90px;
+}
 .research_program {
-  width: 1167px;
+  width: 100%;
   padding: 33px 36px 33px 40px;
   border-radius: 5px;
   box-shadow: 0 10px 30px 0 rgba(189, 195, 200, 0.16);
@@ -4110,9 +4152,7 @@ font-weight: 600;
   padding-bottom: 10px;
 }
 .uplaod-research-doc {
-  width: 419px;
   height: 136px;
-  margin-left: 155px;
   padding: 55px 63px 54px;
   border-radius: 4px;
   border: solid 0 #777eff;
@@ -4133,6 +4173,7 @@ font-weight: 600;
 .research_area {
   width: 1140px;
   padding-bottom: 20px;
+  text-align: left;
 }
 /** Research vision end **/
 
@@ -4209,7 +4250,7 @@ font-weight: 600;
   color: #d0313f;
 }
 .info-news-description-title h1 {
-  margin: 3px 76px 0 19px;
+  margin: 4px 76px 0 19px;
   font-size: 20px;
   font-weight: 500;
   font-stretch: normal;
@@ -4270,7 +4311,7 @@ font-weight: 600;
 }
 
 .contact-us_wrapper {
-  padding: 50px;
+  padding: 82px 50px;
   overflow: hidden;
   background-color: #f6f8f9;
 }
@@ -4300,7 +4341,7 @@ font-weight: 600;
 
 .contact-block {
   margin-right: 52px;
-  padding-left: 27px;
+ 
 }
 .contact-block hr {
   width: auto;
@@ -4340,12 +4381,14 @@ font-weight: 600;
   background-color: #d0313f;
 }
 .contacusform {
-  width: 92%;
+  width: 100%;
   border-radius: 5px;
   background-color: #ffffff;
 }
 
-
+.custom-align{
+  padding: 30px 50px;
+}
 .custom-form-control {
   border-radius: inherit;
 }
@@ -4356,6 +4399,7 @@ font-weight: 600;
   background-color: #f6f8f9;
   height: 301px;
   margin-bottom: 406px;
+  padding: 0 50px;
 }
 /** Mu Contact us screen End **/
 

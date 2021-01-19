@@ -601,7 +601,6 @@ hr {
 
 /***************Start of Research based styles*************/
 
-
 .research-wrapper {
   overflow: hidden;
 }
@@ -979,13 +978,12 @@ footer hr,
 /************* Start of About MU styles ***************/
 .aboutus-wrapper {
   padding: 0px 50px 0px;
-
 }
 
-.about-tabcont{
+.about-tabcont {
   width: 595px;
 }
-.about-ttl span{
+.about-ttl span {
   color: #1d2329 !important;
 }
 .title {
@@ -1051,7 +1049,6 @@ ul.nav.nav-pills {
   font-weight: 300;
   line-height: 1.31;
   color: #1d2329;
-  
 }
 .ordinance_subtitle_text {
   font-size: 36px;
@@ -3137,20 +3134,20 @@ ul.institute,
 }
 /***************Start of Alumni screens  styles*************/
 .alumni_community_wrapper {
- margin: 110px 0 ;
+  margin: 110px 0;
 }
 .alumni-wrapper {
   padding: 0px 50px 50px;
   overflow: hidden;
 }
-.alumni-card-wrapper{
+.alumni-card-wrapper {
   padding: 80px 50px 50px 50px;
   overflow: hidden;
   background-color: #f6f8f9;
 }
-.upcome-event-tile{
+/* .upcome-event-tile{
   padding-top: 30px;
-}
+} */
 .upcoming_events_wrapper {
   padding: 40px 50px 90px;
   margin: 70px 0px 70px 0px;
@@ -3166,19 +3163,13 @@ ul.institute,
 .upcome-event-tile span:first-child {
   font-size: 36px;
   font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.42;
-  letter-spacing: normal;
   text-align: center;
   color: #6c7787;
 }
 .upcome-event-tile span:last-child {
   font-size: 36px;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.42;
-  letter-spacing: normal;
   text-align: center;
   font-weight: 500;
   color: #000000;
@@ -3197,10 +3188,7 @@ ul.institute,
   margin: 20px 0px 22px 9px;
   font-size: 20px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.4;
-  letter-spacing: normal;
   color: #000000;
 }
 .alumni_events_tilte {
@@ -3213,23 +3201,15 @@ ul.institute,
 .alumni_card_tilte p {
   width: 285px;
   margin: 22px 105px 0 9px;
-  font-family: Gotham;
   font-size: 15px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.73;
-  letter-spacing: normal;
   color: #6c7787;
 }
 .alumni_events_tilte h3 {
   float: right;
   font-size: 16px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.25;
-  letter-spacing: normal;
   color: #d0313f;
   border: 2px solid #d0313f;
   border-radius: 5px;
@@ -3243,21 +3223,14 @@ ul.institute,
   width: 445px;
   padding-top: 110px;
   font-size: 15px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.73;
-  letter-spacing: normal;
   color: #6c7787;
 }
 .alumni-community h1 {
   margin-top: 36px;
   font-size: 18px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.22;
-  letter-spacing: normal;
   color: #6c7787;
 }
 
@@ -3275,10 +3248,7 @@ ul.institute,
   left: 28px;
   font-size: 16px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.25;
-  letter-spacing: normal;
   color: #ffffff;
   width: 116px;
   height: 31px;
@@ -3291,11 +3261,7 @@ ul.institute,
   opacity: 0.5;
   font-family: Gotham;
   font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 2.14;
-  letter-spacing: normal;
   color: #1d2329;
 }
 .alumni_events_tilte h2 {
@@ -3304,10 +3270,7 @@ ul.institute,
   margin: 7px 19px 12px 3px;
   font-size: 20px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.4;
-  letter-spacing: normal;
   color: #000000;
 }
 .alumni_events_tilte p {
@@ -3315,11 +3278,7 @@ ul.institute,
   height: 66px;
   margin: 12px 0 35px 3px;
   font-size: 15px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.47;
-  letter-spacing: normal;
   color: #6c7787;
 }
 .cal-img {
@@ -3329,9 +3288,8 @@ ul.institute,
 /***************End of Alumni screens styles*************/
 /***************Start  of Alumni Council screens styles*************/
 .alumni_council_wrapper {
- padding: 0px 50px ;
- overflow: hidden;
-
+  padding: 0px 50px;
+  overflow: hidden;
 }
 .council {
   width: 357px;
@@ -3340,20 +3298,13 @@ ul.institute,
 .council h1 {
   opacity: 0.8;
   font-size: 15px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.4;
-  letter-spacing: normal;
   color: #6c7787;
 }
 .council h2 {
   font-size: 36px;
   font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.31;
-  letter-spacing: normal;
   color: #1d2329;
 }
 .council h3 {
@@ -3362,11 +3313,7 @@ ul.institute,
 .alumni-council p {
   width: 602px;
   font-size: 15px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.73;
-  letter-spacing: normal;
   color: #6c7787;
   padding-top: 25px;
 }
@@ -3389,20 +3336,15 @@ ul.institute,
   width: 100%;
   margin-top: 40px;
 }
-.padding-btm{
+.padding-btm {
   padding-bottom: 100px;
-
 }
-.margin-btn{
+.margin-btn {
   margin-bottom: 60px;
 }
-.fa-quote-left{
+.fa-quote-left {
   font-size: 46px;
   font-weight: 900;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   color: #6c7787;
   padding-left: 10px;
   padding-top: 20px;
@@ -3420,10 +3362,7 @@ ul.institute,
 .alumni_council_events_tilte.coreteam h1 {
   font-size: 20px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.05;
-  letter-spacing: normal;
   color: #000000;
   margin: 20px 0px 9px 9px;
   width: 322px;
@@ -3432,11 +3371,7 @@ ul.institute,
 .alumni_council_events_tilte.coreteam h2 {
   margin: 20px 0px 9px 9px;
   font-size: 15px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.4;
-  letter-spacing: normal;
   color: #6c7787;
   width: 312px;
 }
@@ -3444,22 +3379,19 @@ ul.institute,
 .coreteam-about {
   padding-left: 15px;
 }
-.alumni_council{
+.alumni_council {
   padding-left: 15px;
   background-color: #ffffff;
   height: 361px;
 }
-.alumni_council p{
+.alumni_council p {
   padding: 0px 10px 10px 55px;
 }
 
 .alumni_council_events_tilte h1 {
   font-size: 20px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.05;
-  letter-spacing: normal;
   color: #000000;
   margin: 20px 0px 9px 9px;
 }
@@ -3467,24 +3399,16 @@ ul.institute,
 .alumni_council_events_tilte h2 {
   margin: 20px 0px 9px 9px;
   font-size: 15px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.4;
-  letter-spacing: normal;
   color: #6c7787;
   width: 285px;
 }
 .upcome-event-sub-tile {
   font-size: 15px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.4;
-  letter-spacing: normal;
   text-align: center;
   color: #6c7787;
-  width: 584px; 
+  width: 584px;
 }
 /***************End of Alumni Council screens styles*************/
 
@@ -3522,20 +3446,13 @@ ul.institute,
   margin: 7px 19px 12px 3px;
   font-size: 20px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.4;
-  letter-spacing: normal;
   color: #000000;
 }
 .campus_student_activity h3 {
   float: right;
   font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.36;
-  letter-spacing: normal;
   color: #d0313f;
 }
 .campus_student_activity p {
@@ -3543,11 +3460,7 @@ ul.institute,
   height: 66px;
   margin: 12px 0 35px 3px;
   font-size: 15px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.47;
-  letter-spacing: normal;
   color: #6c7787;
 }
 .campus_student_activity img :first-child {
@@ -3585,10 +3498,7 @@ ul.institute,
   width: 298px;
   font-size: 20px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.4;
-  letter-spacing: normal;
   color: #000000;
 }
 
@@ -3597,20 +3507,13 @@ ul.institute,
   margin: 7px 19px 12px 3px;
   font-size: 15px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.47;
-  letter-spacing: normal;
   color: #6c7787;
 }
 .campus_student_club h3 {
   float: right;
   font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.36;
-  letter-spacing: normal;
   color: #d0313f;
 }
 .campus_student_club p {
@@ -3618,11 +3521,7 @@ ul.institute,
   height: 66px;
   margin: 12px 0 35px 3px;
   font-size: 15px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.47;
-  letter-spacing: normal;
   color: #6c7787;
 }
 .campus_student_club img :first-child {
@@ -3635,7 +3534,7 @@ ul.institute,
 /**  END of Campus Student Activity Screen **/
 
 /** Start of Campus Infrastructure Activity Screen **/
-.campus-infrastructure{
+.campus-infrastructure {
   padding: 0 30px;
 }
 .campus_infra_wrapper {
@@ -3651,16 +3550,16 @@ ul.institute,
   border-radius: 0px;
   padding: 0px 84px 17px 84px !important;
 }
-.campus_infra img{
-    width: 100%;
-    height: auto;
-    padding-top: 20px;
+.campus_infra img {
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
 }
 .health-img {
   width: 100%;
 }
 .campus-health p.about-title {
- padding-right: 20px;
+  padding-right: 20px;
 }
 .purpose-righttxt p.about-title {
   margin: 0px 30px 10px 0px;
@@ -3668,7 +3567,7 @@ ul.institute,
 .hostel-dining-wrapper {
   width: 100%;
   background-color: #f6f8f9;
- padding: 70px 0px;
+  padding: 70px 0px;
 }
 .smart-classrooms-wrapper {
   width: 100%;
@@ -3676,39 +3575,36 @@ ul.institute,
   padding: 70px 0px;
 }
 .sports-leisure-wrapper {
-  width: 100%; 
+  width: 100%;
   background-color: #f6f8f9;
   padding-top: 70px;
   padding-bottom: 110px;
-  
 }
-.w-30{
+.w-30 {
   width: 30% !important;
 }
 
-.w-70{
+.w-70 {
   width: 70% !important;
 }
 
-.w-40{
+.w-40 {
   width: 40% !important;
 }
-.w-60{
+.w-60 {
   width: 60% !important;
 }
-
 
 .campus-infrastructure p {
   margin-bottom: 15px;
   padding-right: 40px;
 }
 .campus-infrastructure p span {
-font-weight: 600;
+  font-weight: 600;
 }
-.campus-class{
+.campus-class {
   padding: 40px 102px 20px 50px;
 }
-
 
 /** End of Campus Infrastructure Activity Screen  **/
 
@@ -3717,81 +3613,60 @@ font-weight: 600;
   padding: 65px 50px 50px;
   overflow: hidden;
 }
-.libary-align{
+.libary-align {
   padding-left: 263px;
-  
 }
-.libariry-top{
+.libariry-top {
   padding-top: 83px;
 }
-.libariry-para{
+.libariry-para {
   padding: 30px 0px 0px 36px;
 }
 .library_description {
- 
   width: 942px;
   padding-right: 74px;
 }
 
 .library_description p {
   font-size: 15px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.47;
-  letter-spacing: normal;
   color: #6c7787;
   padding-bottom: 15px;
-
 }
-.library_description h1{
+.library_description h1 {
   font-size: 24px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.67;
-  letter-spacing: normal;
   color: #000000;
   padding-bottom: 15px;
 }
-.library_description p span{
-font-weight: 600;
-color: #6c7787;
-
+.library_description p span {
+  font-weight: 600;
+  color: #6c7787;
 }
 
-.libra_infra img{
+.libra_infra img {
   width: 660px;
   height: auto;
   padding-top: 20px;
 }
-.libra_infra-right img{
+.libra_infra-right img {
   width: 560px;
   height: auto;
   padding-top: 20px;
 }
-.library_description-left{
+.library_description-left {
   padding-left: 50px;
   padding-right: 70px;
 }
 .library_description-left p {
   font-size: 15px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.47;
-  letter-spacing: normal;
   color: #6c7787;
   padding-bottom: 15px;
-
 }
-.library_description-left h1{
+.library_description-left h1 {
   font-size: 24px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.67;
-  letter-spacing: normal;
   color: #000000;
   padding-bottom: 15px;
 }
@@ -3845,20 +3720,13 @@ color: #6c7787;
 .leader_gover h1 {
   opacity: 0.8;
   font-size: 15px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.4;
-  letter-spacing: normal;
   color: #6c7787;
 }
 .leader_gover h2 {
   font-size: 36px;
   font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.31;
-  letter-spacing: normal;
   color: #1d2329;
 }
 .leader_gover h3 {
@@ -3867,11 +3735,7 @@ color: #6c7787;
 .leader_gover_council p {
   width: 602px;
   font-size: 15px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.73;
-  letter-spacing: normal;
   color: #6c7787;
   padding-top: 25px;
 }
@@ -3896,10 +3760,7 @@ color: #6c7787;
 .teammeet h1 {
   font-size: 20px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.05;
-  letter-spacing: normal;
   color: #000000;
   margin: 20px 0px 9px 9px;
 }
@@ -3907,11 +3768,7 @@ color: #6c7787;
 .teammeet h2 {
   margin: 20px 0px 9px 9px;
   font-size: 15px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.4;
-  letter-spacing: normal;
   color: #6c7787;
   width: 285px;
 }
@@ -3922,38 +3779,28 @@ color: #6c7787;
 
 .leader-event-sub-tile {
   font-size: 15px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.4;
-  letter-spacing: normal;
   text-align: center;
   color: #6c7787;
   width: 584px;
-
 }
 
 .alumni_council_events_tilte p {
   font-size: 15px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.47;
-  letter-spacing: normal;
   color: #6c7787;
 }
-.img-on-img img{
+.img-on-img img {
   width: auto;
-  
 }
-.banner-icon{
+.banner-icon {
   position: relative;
   text-align: center;
   color: white;
   opacity: 0.9;
-
 }
-.banner-icon h1,h2{
+.banner-icon h1,
+h2 {
   text-align: left;
 }
 .img-on-img {
@@ -3974,7 +3821,7 @@ color: #6c7787;
   padding-bottom: 70px;
 }
 .meet_advisory_council_wrapper {
-  padding: 20px 0px 70px;
+  padding: 0px 0px 70px;
 }
 .meet_Academics_Deans_wrapper {
   padding: 20px 0px 70px;
@@ -3988,12 +3835,10 @@ color: #6c7787;
 
 /** Research Advisory Council Screen Start **/
 
-
-.research_advisory_council_wrapper{
+.research_advisory_council_wrapper {
   margin-bottom: 130px;
   padding: 0px 50px;
   overflow: hidden;
-
 }
 
 .research-tab-wrapper .nav-pills .nav-link {
@@ -4002,20 +3847,17 @@ color: #6c7787;
   color: #1d2329;
   opacity: 0.5;
   border-radius: 0px;
- 
 }
-.institute-block.research-li{
+.institute-block.research-li {
   padding: 0px;
-
 }
-.institute-block ul.research_about  {
+.institute-block ul.research_about {
   font-size: 15px;
   line-height: 2.67;
   color: #6c7787;
   list-style-type: none;
   width: 100%;
   padding-left: 0px !important;
- 
 }
 
 .research_advisory_council img {
@@ -4028,10 +3870,7 @@ color: #6c7787;
 .research_advisory_council h1 {
   font-size: 20px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.05;
-  letter-spacing: normal;
   color: #000000;
   margin: 20px 0px 9px 9px;
 }
@@ -4039,15 +3878,13 @@ color: #6c7787;
 .research_advisory_council h2 {
   margin-left: 9px;
   font-size: 15px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.4;
-  letter-spacing: normal;
   color: #6c7787;
   width: 285px;
 }
-
+.advisory-h1 {
+  width: 752px;
+}
 .upcome-event-sub-tile span {
   font-weight: bold;
 }
@@ -4055,7 +3892,7 @@ color: #6c7787;
 /** Research Advisory Council Screen END **/
 
 /** Research Programs Screen Start **/
-.research_program_council_wrapper{
+.research_program_council_wrapper {
   padding: 0px 50px;
   overflow: hidden;
 }
@@ -4081,29 +3918,18 @@ color: #6c7787;
   margin: 0 0 9px;
   font-size: 20px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   color: #000000;
 }
 .research_program h2 {
   font-size: 15px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.47;
-  letter-spacing: normal;
   color: #6c7787;
   padding: 5px 0px;
 }
 .research_program h2 span {
   font-size: 15px;
   font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.47;
-  letter-spacing: normal;
   color: #6c7787;
 }
 .research_program h2 span.span-space {
@@ -4126,10 +3952,7 @@ color: #6c7787;
   text-align: center;
   font-size: 20px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.4;
-  letter-spacing: normal;
   color: #000000;
   padding-top: 10px;
 }
@@ -4137,11 +3960,7 @@ color: #6c7787;
   text-align: center;
   width: 135px;
   font-size: 15px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.47;
-  letter-spacing: normal;
   color: #6c7787;
 }
 .paper-vision {
@@ -4157,6 +3976,7 @@ color: #6c7787;
   border-radius: 4px;
   border: solid 0 #777eff;
   background-color: #f9f9f9;
+  width: 419px;
 }
 .uplaod-research-doc span {
   padding: 0px 10px;
@@ -4171,7 +3991,8 @@ color: #6c7787;
   padding: 0px 50px;
 }
 .research_area {
-  width: 1140px;
+  /* width: 1140px; */
+  width: auto;
   padding-bottom: 20px;
   text-align: left;
 }
@@ -4191,7 +4012,7 @@ color: #6c7787;
   border-width: 0 0 2px;
   border-color: #d6d6d6;
 }
-.MU-resource-wrapper{
+.MU-resource-wrapper {
   padding: 0 50px;
   overflow: hidden;
   margin-bottom: 70px;
@@ -4204,7 +4025,7 @@ color: #6c7787;
 }
 
 .MU-gallery-cards .resource-card {
-  width: 375px; 
+  width: 375px;
   padding: 35px 30px;
   border-radius: 5px;
   box-shadow: 0 10px 30px 0 rgba(189, 195, 200, 0.16);
@@ -4214,7 +4035,6 @@ color: #6c7787;
 .MU-gallery-cards .resource-card.middle {
   margin: 0 20px;
 }
-
 
 .info-new {
   position: relative;
@@ -4242,21 +4062,14 @@ color: #6c7787;
 .info-news-description-title a {
   float: right;
   font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.36;
-  letter-spacing: normal;
   color: #d0313f;
 }
 .info-news-description-title h1 {
   margin: 4px 76px 0 19px;
   font-size: 20px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.05;
-  letter-spacing: normal;
   color: #000000;
 }
 
@@ -4264,18 +4077,20 @@ color: #6c7787;
   width: 313px;
   margin: 12px 0 9px 19px;
   font-size: 15px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.47;
-  letter-spacing: normal;
   color: #6c7787;
 }
 
 /** Mu Resource  screen End **/
 
 /** Mu Contact US   screen Start **/
-
+.contact-head {
+  font-weight: 300;
+}
+.contact-head strong {
+  font-weight: 500;
+  color: #000000;
+}
 .custom-bg {
   background-color: #f6f8f9;
   padding-top: 50px;
@@ -4286,23 +4101,15 @@ color: #6c7787;
   padding-top: 40px;
   font-size: 15px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.47;
-  letter-spacing: normal;
   color: #000000;
 }
 
 .contact_query_subtitle {
   width: 195px;
   margin: 7px 64px 0 0;
-  font-family: Gotham;
   font-size: 15px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.47;
-  letter-spacing: normal;
   color: #6c7787;
 }
 
@@ -4319,29 +4126,20 @@ color: #6c7787;
   width: 36%;
   font-size: 15px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.47;
-  letter-spacing: normal;
   color: #000000;
 }
 
 .contact-us ul {
   list-style-type: none;
   width: 396px;
-  font-family: Gotham;
   font-size: 15px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.67;
-  letter-spacing: normal;
   color: #6c7787;
 }
 
 .contact-block {
   margin-right: 52px;
- 
 }
 .contact-block hr {
   width: auto;
@@ -4353,25 +4151,15 @@ color: #6c7787;
 .custom-form-title h1 {
   margin: 21px 57px 8px 0;
   opacity: 0.49;
-  font-family: Gotham;
   font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 2.14;
-  letter-spacing: normal;
   color: #1d2329;
 }
 
 .custom-form-title h2 {
   opacity: 0.8;
-
   font-size: 15px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.4;
-  letter-spacing: normal;
   color: #6c7787;
 }
 
@@ -4386,16 +4174,16 @@ color: #6c7787;
   background-color: #ffffff;
 }
 
-.custom-align{
+.custom-align {
   padding: 30px 50px;
 }
 .custom-form-control {
   border-radius: inherit;
 }
-.contac-tab-wrapper{
-      padding: 50px 50px 0px 50px;
+.contac-tab-wrapper {
+  padding: 50px 50px 0px 50px;
 }
-.contact-us-form-wrapper{
+.contact-us-form-wrapper {
   background-color: #f6f8f9;
   height: 301px;
   margin-bottom: 406px;
@@ -4416,32 +4204,25 @@ color: #6c7787;
 
 /** Navbar CSS End**/
 
-.banner-text{
+.banner-text {
   position: relative;
   text-align: center;
   color: white;
-
 }
 
-.text-on-img{
+.text-on-img {
   position: absolute;
   top: 50%;
   left: 32%;
   transform: translate(-50%, -50%);
 }
-.text-on-img-align{
+.text-on-img-align {
   margin: 10px 63px;
 }
-.text-on-img-title h1{
+.text-on-img-title h1 {
   font-size: 36px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.42;
-  letter-spacing: normal;
   color: #ffffff;
   text-align: left;
-  
 }
-
-

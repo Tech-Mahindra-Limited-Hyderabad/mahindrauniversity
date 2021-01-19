@@ -1396,19 +1396,19 @@ ul.institute,
 .program-block2 ul li {
   padding-bottom: 20px;
 }
-.program-card-block,
-.MU-gallery-cards {
+/* .program-card-block,
+.blogs-cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, 365px);
   grid-gap: 1rem;
   justify-content: space-between;
-  /* flex-wrap: wrap;
-  padding: 1rem; */
-}
+  flex-wrap: wrap;
+  padding: 1rem;
+} */
 .program-card-block .card {
   width: 360px;
   height: 413px;
-  /* margin: 0 20px; */
+  margin: 0 33px 0 0;
   padding: 35px 30px;
   border-radius: 5px;
   box-shadow: 0 10px 30px 0 rgba(189, 195, 200, 0.16);
@@ -1702,6 +1702,7 @@ ul.institute,
   font-size: 15px;
   line-height: 1;
   color: #6c7787;
+  text-align: end;
   /* padding-left: 40px; */
 }
 .fee-application ul li span img {
@@ -1744,6 +1745,7 @@ ul.institute,
   width: 360px;
   height: 480px;
   padding: 19px;
+  margin: 0 33px 0 0;
   border-radius: 5px;
   box-shadow: 0 10px 30px 0 rgba(189, 195, 200, 0.16);
   border: solid 2.4px #f5f5f5;
@@ -2063,6 +2065,12 @@ ul.institute,
   float: right;
   text-decoration: none;
   padding-top: 30px;
+}
+.foot {
+  margin-top: 3%;
+}
+.foot1 {
+  margin-top: -2%;
 }
 /***************MU gallery styles end***************/
 /***************End of MU-gallery styles*************/
@@ -3097,54 +3105,6 @@ ul.institute,
 .about-chancellor {
   background-image: url("../images/chancellor.png");
 }
-.row {
-  margin: 0;
-}
-.col {
-  font-size: 20px;
-  line-height: 2.35;
-  color: #ffffff;
-  padding: 0;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  min-height: 305px;
-  border-right: 1px solid rgba(255, 255, 255, 0.5);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  overflow: hidden;
-  padding: 20px;
-}
-.row:last-child .col {
-  border-bottom: none;
-}
-.thumb-anim {
-  transition: 0.5s;
-  transform: translateY(100%);
-  margin-top: auto;
-  position: relative;
-}
-.thumb-title {
-  transition: 0.5s;
-  transform: translateY(-100%);
-  font-size: 20px;
-  line-height: 2.35;
-  font-weight: 400;
-  text-align: center;
-}
-.bg-img-text-wrapper .thumb-description {
-  font-size: 13px;
-  line-height: 1.69;
-  text-align: center;
-  color: #ffffff;
-}
-.col:hover .thumb-anim,
-.col:hover .thumb-title {
-  transform: translateY(0);
-}
-.col span {
-  position: relative;
-  left: 50%;
-}
 /***************Start of Alumni screens  styles*************/
 .alumni_community_wrapper {
   margin: 110px 0;
@@ -3441,12 +3401,11 @@ ul.institute,
   box-shadow: 30px 10px 80px 0 rgba(0, 0, 0, 0.1);
 }
 .campus_student_activity {
-  
   height: 480px;
   box-shadow: 0 10px 30px 0 rgba(189, 195, 200, 0.16);
   border: solid 2.4px #f5f5f5;
   background-color: #ffffff;
-  margin-bottom: 33px;  
+  margin-bottom: 33px;
   padding: 19px;
   border-radius: 10px;
 }
@@ -3549,7 +3508,7 @@ ul.institute,
   padding: 50px 0px 0px 50px;
   overflow: hidden;
 }
-.campnav{
+.campnav {
   padding-right: 50px;
 }
 .campus-infrastructure {
@@ -3560,7 +3519,7 @@ ul.institute,
   overflow: hidden;
 }
 
-.campus-infra-text{
+.campus-infra-text {
   font-size: 15px;
   font-weight: normal;
   font-stretch: normal;
@@ -3570,9 +3529,9 @@ ul.institute,
   color: #6c7787;
   padding: 0px 20px 18px 0px;
 }
-.campus-infra-text span{
+.campus-infra-text span {
   font-size: 15px;
-  font-weight: 600; 
+  font-weight: 600;
   color: #6c7787;
 }
 .nav-pills.custom-link .nav-link {
@@ -3627,7 +3586,6 @@ ul.institute,
 .w-60 {
   width: 60% !important;
 }
-
 
 .campus-class {
   padding: 40px 167px 20px 50px;
@@ -4217,6 +4175,75 @@ h2 {
   padding: 0 50px;
 }
 /** Mu Contact us screen End **/
+
+/***************Start of image text styles*************/
+.bg-img-text-wrapper {
+  background-repeat: no-repeat;
+  height: 610px;
+  background-size: cover;
+  border-radius: 10px;
+}
+.image-pro {
+  background-image: url("../images/procedure.png");
+}
+.image-edu {
+  background-image: url("../images/edu.png");
+}
+.image-academy {
+  background-image: url("../images/academy.png");
+}
+.about-chancellor {
+  background-image: url("../images/chancellor.png");
+}
+.row {
+  margin: 0;
+}
+.col {
+  font-size: 20px;
+  line-height: 2.35;
+  color: #ffffff;
+  padding: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  min-height: 305px;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  overflow: hidden;
+  padding: 20px;
+}
+.row:last-child .col {
+  border-bottom: none;
+}
+.thumb-anim {
+  transition: 0.5s;
+  transform: translateY(100%);
+  margin-top: auto;
+  position: relative;
+}
+.thumb-title {
+  transition: 0.5s;
+  transform: translateY(-100%);
+  font-size: 20px;
+  line-height: 2.35;
+  font-weight: 400;
+  text-align: center;
+}
+.bg-img-text-wrapper .thumb-description {
+  font-size: 13px;
+  line-height: 1.69;
+  text-align: center;
+  color: #ffffff;
+}
+.col:hover .thumb-anim,
+.col:hover .thumb-title {
+  transform: translateY(0);
+}
+.col span {
+  position: relative;
+  left: 50%;
+}
+/***************End of image text styles*************/
 
 /** Navbar CSS Start**/
 .bg-dark {

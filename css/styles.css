@@ -138,9 +138,12 @@ a:hover {
   /* top: 110px; */
   left: 0;
   right: 0;
+  margin-top: 6px !important;
 }
 .dropdown-menu.show {
   display: flex;
+  width: 1110px;
+  margin: 0 auto;
 }
 /* .dropdown-menu.show:after {
   content: "";
@@ -160,17 +163,17 @@ a:hover {
   font-weight: 500;
   line-height: 2.14;
   color: #1d2329;
-  padding-left: 45px;
+  /* padding-left: 45px; */
   width: 30%;
 }
 .overview-list h4 {
   margin: 0;
   padding-bottom: 25px;
+  padding-left: 45px;
   font-size: 14px;
 }
 .overview-list a {
-  padding: 0;
-  padding-bottom: 9px;
+  padding: 4px 45px 6px;
 }
 .overview-list a.active {
   background-color: #f6f8f9;
@@ -186,11 +189,11 @@ a:hover {
   height: auto;
   opacity: 0.25;
   border: solid 1px #979797;
-  margin-left: 28px;
+  margin-right: 29.5px;
 }
 .overview-wrapper {
   display: flex;
-  margin-left: 29px;
+  /* margin-left: 29px; */
   width: 70%;
 }
 .overview-wrapper img {
@@ -202,13 +205,13 @@ a:hover {
   line-height: 1.62;
   color: #6c7787;
   margin: 0;
+  width: 415px;
   padding-bottom: 10px;
 }
 .overview-wrapper a {
   font-size: 14px;
   line-height: 1.36;
   color: #d0313f;
-  padding-bottom: 25px;
   text-decoration: none;
 }
 .overview-wrapper > div {
@@ -216,6 +219,7 @@ a:hover {
 }
 .overview-tech {
   display: flex;
+  padding-top: 25px;
 }
 .overview-tech ul {
   padding: 0;
@@ -373,7 +377,7 @@ hr {
   opacity: 0.8;
 }
 .MU-wrapper {
-  padding: 60px 152px;
+  padding: 80px 152px;
   width: 100%;
 }
 .MU-inner-wrapper h5 {
@@ -557,10 +561,10 @@ hr {
   margin-bottom: 33px;
 }
 .block1-wrapper.active,
-.block.active {
+.block-innerwrap.active {
   background-color: #ffffff;
 }
-.block {
+.block-innerwrap {
   padding: 27px;
   width: 579px;
 }
@@ -593,11 +597,11 @@ hr {
   color: #000000;
   opacity: 0.5;
 }
-.block.active .inner-block a {
+.block-innerwrap.active .inner-block a {
   color: #d0313f;
   opacity: 1;
 }
-.block.active i {
+.block-innerwrap.active i {
   border: solid #d0313f;
   border-width: 0 0.3px 0.3px 0;
   opacity: 1;
@@ -622,7 +626,7 @@ hr {
 .research-wrapper > div {
   background-color: #2f3437;
   padding-top: 58px;
-  padding-bottom: 70px;
+  padding-bottom: 124px;
 }
 .research-wrapper h4 {
   font-size: 36px;
@@ -651,41 +655,50 @@ hr {
   background: #d0313f;
   width: 64px;
   height: 64px;
-  margin: 0 32px;
+  /* margin: 0 32px; */
   top: 50%;
 }
-.research-wrapper .carousel-item > div {
+.research-wrapper .carousel-control-prev {
+  margin: 0 32px 0 116px;
+}
+
+.research-wrapper .carousel-control-next {
+  margin: 0 87px 0 32px;
+}
+.carousel-block-wrap {
+  max-width: 1045px;
+  margin: 0 auto;
+  /* position: relative; */
+}
+.research-wrapper .carousel-item .carousel-text {
   width: 431px;
-  height: 450px;
-  margin: 0px 0 64px 167px;
-  padding: 0 0 0 64px;
+  height: 472px;
+  /* margin: 0px 0 64px 212px; */
+  margin: 0px 0 64px 15px;
+  padding: 73px 61px 73px 64px;
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
   background-color: #f7f8fa;
   position: absolute;
 }
-.research-wrapper .carousel-item > div h4 {
+.research-wrapper .carousel-item .carousel-text h4 {
   font-size: 17px;
   font-weight: 500;
   line-height: 1.41;
   letter-spacing: -0.4px;
   color: #1d2329;
   text-align: left;
-  padding-top: 73px;
 }
-.research-wrapper .carousel-item > div p {
+.research-wrapper .carousel-item .carousel-text p {
   width: 306px;
   height: 231px;
-  margin: 13px 61px 31px 0;
+  margin: 21px 0px 31px 0;
   font-size: 15px;
   line-height: 1.4;
   color: #454b52;
   text-align: left;
 }
-.research-wrapper .carousel-item > div a {
-  width: 306px;
-  height: 231px;
-  margin: 13px 61px 31px 0;
+.research-wrapper .carousel-item .carousel-text a {
   font-size: 14px;
   line-height: 1.36;
   color: #d0313f;
@@ -693,13 +706,14 @@ hr {
   text-decoration: none;
 }
 .research-wrapper .carousel-item img {
-  width: 755px !important;
-  height: 450px;
+  width: 614px !important;
+  height: 472px;
   float: right;
-  margin-right: 167px;
+  /* margin-right: 183px; */
+  margin-right: -15px;
 }
 .research-wrapper .carousel-indicators {
-  bottom: -66px;
+  bottom: -90px;
 }
 /***************End of Research based styles*************/
 
@@ -712,12 +726,13 @@ hr {
   background-repeat: no-repeat;
   /* padding: 85px 0; */
   padding-bottom: 93px;
+  padding-top: 161px;
   background-size: cover;
-  /* background-position: 20% -70%; */
-  background-position: 20% -170%;
+  background-position: 20% 70%;
+  /* background-position: 20% -170%; */
 }
 .success-inner {
-  padding: 138px 135px 0 163px;
+  padding: 23px 135px 0 163px;
 }
 .success-inner h4 {
   width: 329px;
@@ -794,8 +809,8 @@ hr {
   border-width: 0 3px 3px 0;
 } */
 .success-details {
-  position: relative;
   margin-top: 6.5%;
+  margin-bottom: 312px;
 }
 .success-info {
   width: 125px;
@@ -810,7 +825,7 @@ hr {
   font-size: 36px;
 }
 .success-placements {
-  padding-top: 20.5%;
+  padding-top: 142px;
 }
 .success-placements h4 {
   font-size: 36px;
@@ -827,7 +842,8 @@ hr {
   line-height: 1.4;
   text-align: center;
   color: #ffffff;
-  margin: 13px 180px 0;
+  margin: 13px auto 0;
+  width: 580px;
 }
 .success-placements hr {
   margin: 20px auto 61px;
@@ -1902,7 +1918,7 @@ ul.institute,
   line-height: 1.31;
   color: #1d2329;
 }
-.MU-center-overview-second-wrap .block {
+.MU-center-overview-second-wrap .block-center {
   padding-bottom: 40px;
   display: flex;
 }
